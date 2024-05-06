@@ -22,8 +22,8 @@ const Homepage = () => {
       {/*DESCRIPTION*/}
       <p className="md:text-xl">The heart and soul of my design are honesty, passion, and poise. Honesty in design is like a signature. 
         It is what makes a design authentically yours. Passion is the fuel that keeps us burning through late night 
-        projects, endless revisions, and onto the next wonderful creation. And Poise? It&apos;s the grace with which we 
-        handle every challenge, having empathy during bad days, and delivering stunning visuals. These aren&apos;t just values, 
+        projects, endless revisions, and onto the next wonderful creation. And Poise? It&lsquo;s the grace with which we 
+        handle every challenge, having empathy during bad days, and delivering stunning visuals. These aren&lsquo;t just values, 
         they are the essence of who I am as a designer and as an individual. These are what drive me to create designs that 
         speak, resonate, and inspire. Staying true, keeping my passion, and designing with elegance.</p>
 
