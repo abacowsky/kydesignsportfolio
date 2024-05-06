@@ -15,7 +15,7 @@ const ContactPage = () => {
     e.preventDefault();
     setError(false);
     setSuccess(false);
-
+  
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID,
@@ -28,7 +28,8 @@ const ContactPage = () => {
           setSuccess(true);
           form.current.reset();
         },
-        () => {
+        (error) => {
+          console.error("Error sending email:", error);
           setError(true);
         }
       );
