@@ -45,7 +45,7 @@ const Homepage = () => {
 
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">My Work</button>
+            <button className="p-4 rounded-lg ring-1 ring-pink-400 bg-pink-400 text-black">My Work</button>
             <button className="p-4 rounded-lg ring-1 ring-black">Contact Me</button>
           </div>
         </div>
